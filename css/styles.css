@@ -1,0 +1,29 @@
+section{
+    padding: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+.desc{ border: 0; }
+.colors,
+.targets,
+.droparea{
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.droparea{
+    border: 1px dashed #000;
+    background: #fff;
+    height: 100px; min-width: 100px;
+}
+.el{
+    display: inline-block;
+    margin-right: 2px;
+}
+.item {
+    text-align: center;
+    font-size: 8px;
+    cursor: pointer;
+}
